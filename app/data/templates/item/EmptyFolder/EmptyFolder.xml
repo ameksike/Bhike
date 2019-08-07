@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>EmptyFolder</Name>
+        <Description>Creates an empty folder.</Description>
+        <Icon>icon.png</Icon>
+        <ProjectType>Others</ProjectType>
+        <SortOrder>20</SortOrder>
+        <DefaultName>New Empty Folder</DefaultName>
+    </TemplateData>
+    <TemplateContent>
+		<Folder Name="New Empty Folder" TargetFoderName='{{ safeitemname }}'></Folder>
+    </TemplateContent>
+</BHTemplate>

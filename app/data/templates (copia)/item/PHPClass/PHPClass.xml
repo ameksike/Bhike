@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>PHPClass</Name>
+        <Description>An empty PHP class definition.</Description>
+        <Icon>icon.png</Icon>
+        <Type>Ksike Items/PHP</Type>
+        <SortOrder>20</SortOrder>
+        <DefaultName>PHPClass</DefaultName>
+        <ProvideDefaultName>false</ProvideDefaultName>
+    </TemplateData>
+    <TemplateContent>
+		<Item SubType='' CustomTool='' ItemType='' ReplaceParameters='true' TargetFileName='item.php.tpl'>
+			<Value>{$GLOBALS['name']}.php</Value>
+		</Item>
+    </TemplateContent>
+</BHTemplate>

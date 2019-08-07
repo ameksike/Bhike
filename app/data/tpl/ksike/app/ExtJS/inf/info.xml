@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tpl>
+    <info>
+        <name>ExtJS</name>
+        <type>app</type>
+        <category>ksike</category>
+        <created>10/15/2011</created>
+        <author>Nosinc</author>
+        <description>default applications allow you to build a heaven in two clicks</description>
+        <image>true</image>
+    </info>    
+    <data>
+        <asociations>			
+        </asociations>
+        <ref>
+            <form>
+                <name>$GLOBALS['vars']->formName}</name>
+                <height>$GLOBALS['vars']->formHeight}</height>
+                <width>$GLOBALS['vars']->formWidth}</width>
+            </form>
+            <app>
+                <name>{$GLOBALS['name']}</name>
+            </app>
+            <template>
+                <name>{$GLOBALS['tpl']}</name>
+                <path>{$GLOBALS['tplPath']}</path>
+            </template>
+        </ref>
+        <child>
+            <name>cfg</name>        
+            <required>true</required>
+            <editable>false</editable>
+            <description>This directory has the app configuration files...</description>
+        </child>
+        <child>
+            <name>client</name>        
+            <required>true</required>
+            <editable>true</editable>
+            <description>This directory has the app client-side capabilities...</description>
+            <child>
+                <name>css</name>
+                <required>false</required>
+                <editable>true</editable>            
+                <description>css blabla bla Cascade Style Sheet</description>
+            </child>
+            <child>
+                <name>js</name>
+                <required>false</required>
+                <editable>true</editable>            
+                <description>js blabla bla JavaScript</description>
+                <child>
+                    <name>common</name>
+                    <required>false</required>
+                    <editable>true</editable>            
+                    <description>common dir its for...</description>
+                </child>
+                <child>
+                    <name>views</name>
+                    <required>false</required>
+                    <editable>true</editable>            
+                    <description>views dir its for...</description>
+                </child>
+                <child>
+                    <name>controller</name>
+                    <required>false</required>
+                    <editable>true</editable>            
+                    <description>controller dir its for...</description>
+                </child>
+            </child>
+            <child>
+                <name>img</name>
+                <required>false</required>
+                <editable>true</editable>            
+                <description>img blabla bla Resources</description>
+            </child>
+        </child>
+        <child>
+            <name>server</name>        
+            <required>true</required>
+            <editable>true</editable>
+            <description>This directory has the app server-side capabilities...</description>
+            <child>
+                <name>common</name>
+                <required>false</required>
+                <editable>true</editable>            
+                <description>common blabla bla all common files</description>
+            </child>
+            <child>
+                <name>include</name>
+                <required>false</required>
+                <editable>true</editable>            
+                <description>includes blabla bla resources</description>
+            </child>
+        </child>
+        <dep>
+            <core>
+                <name>ExtJS</name>
+                <version>3.0</version>
+                <required>true</required>
+            </core>
+        </dep>
+        <gui>
+            <type>panel</type>
+            <layout>card</layout>
+            <items>
+                <type>panel</type>
+                <layout>form</layout>
+                <items>
+                    <name>
+                        <type>textfield</type>
+                        <label>Name</label>
+                        <value>FormPanel1</value>
+                    </name>
+                    <height>
+                        <type>textfield</type>
+                        <label>Height</label>
+                        <value>300</value>
+                    </height>
+                    <width>
+                        <type>textfield</type>
+                        <label>Width</label>
+                        <value>400</value>
+                    </width>
+                </items>
+            </items>			
+        </gui>
+    </data>
+</tpl>

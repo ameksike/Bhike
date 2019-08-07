@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="App" Version="0.3">
+    <TemplateData>
+        <Name>MobileApplets</Name>
+        <Description>Sirve para utilizar en el desarrollo de applets para Mobile</Description>
+        <PreviewImage>Preview.png</PreviewImage>
+        <Icon>icon.png</Icon>
+        <ProjectType>Ksike</ProjectType>
+        <SortOrder>30</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>MobileApplets</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Hidden>false</Hidden>
+        <LocationField>Enabled</LocationField>
+        <RequiredFrameworkVersion>ksike 1.1</RequiredFrameworkVersion>
+        <SupportsMasterPage>false</SupportsMasterPage>
+        <SupportsCodeSeparation>false</SupportsCodeSeparation>
+        <SupportsLanguageDropDown>false</SupportsLanguageDropDown>
+    </TemplateData>
+    <TemplateContent></TemplateContent>
+</BHTemplate>

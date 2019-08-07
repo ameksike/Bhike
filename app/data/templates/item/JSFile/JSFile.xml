@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>JavaScript</Name>
+        <Description>An empty JavaScript file.</Description>
+        <Type>Otros</Type>
+        <Icon>icon.png</Icon>
+        <SortOrder>20</SortOrder>
+        <DefaultName>main</DefaultName>
+        <TemplateGroup>BHike Templates</TemplateGroup>
+    </TemplateData>
+    <TemplateContent>
+		<Item TargetFileName='item.js.tpl'>
+			<Value>{$GLOBALS['name']}.js</Value>
+		</Item>
+    </TemplateContent>
+</BHTemplate>

@@ -1,0 +1,159 @@
+.access-rules{
+	background-image: url('../img/eclipse-icons/access_rules.png') !important ;
+}
+
+.config-filter{
+	background-image: url('../img/eclipse-icons/config_filter.png')!important ;
+}
+
+.details-view{
+	background-image: url('../img/defaults/icons/details-view.png')!important ;
+}
+
+.exclude{
+	background-image: url('../img/eclipse-icons/exclude.png') !important ;
+}
+
+.file{
+	background-image: url('../img/eclipse-icons/file.png')!important ;
+}
+
+.folder{
+	background-image: url('../img/eclipse-icons/folder.png')!important ;
+}
+
+.help{
+	background-image: url('../img/eclipse-icons/help.png')!important ;
+}
+
+.icon-check-all-src{
+	background-image: url('../img/defaults/icons/icon-check-all-src.png')!important ;
+}
+
+.icon-explorer{
+	background-image: url('../img/defaults/icons/icon-explorer.png')!important ;
+}
+
+.icon-explorer-showall{
+	background-image: url('../img/defaults/icons/icon-explorer-showall.png')!important ;
+}
+
+.icon-library{
+	background-image: url('../img/defaults/icons/icon-library.png')!important ;
+}
+
+.icon-new-item{
+	background-image: url('../img/defaults/icons/icon-new-item.png')!important ;
+}
+
+.icon-new-project{
+	background-image: url('../img/defaults/icons/icon-new-project.png')!important ;
+}
+
+.icon-open-project{
+	background-image: url('../img/defaults/icons/icon-open-project.png')!important ;
+}
+
+.icon-project-properties{
+	background-image: url('../img/defaults/icons/icon-project-properties.png')!important ;
+}
+
+.icon-reference-item{
+	background-image: url('../img/defaults/icons/icon-reference-item.png')!important ;
+}
+
+.icon-src{
+	background-image: url('../img/defaults/icons/icon-src.png')!important ;
+}
+
+.icons-view{
+	background-image: url('../img/defaults/icons/icons-view.png')!important ;
+}
+
+.icon-view-properties{
+	background-image: url('../img/defaults/icons/icon-view-properties.png')!important ;
+}
+
+.icon-virtual-folder{
+	background-image: url('../img/defaults/icons/icon-virtual-folder.png')!important ;
+}
+
+.icon-uncheck-all-src{
+	background-image: url('../img/defaults/icons/icon-uncheck-all-src.png')!important ;
+}
+
+.include{
+	background-image: url('../img/eclipse-icons/include.png')!important ;
+}
+
+.item{
+	background-image: url('../img/eclipse-icons/item.png')!important ;
+}
+
+.item-2{
+	background-image: url('../img/eclipse-icons/item-2.png')!important ;
+}
+
+.jar{
+	background-image: url('../img/eclipse-icons/jar.png')!important ;
+}
+
+.java{
+	background-image: url('../img/eclipse-icons/java.png')!important ;
+}
+
+.javadoc-location{
+	background-image: url('../img/eclipse-icons/javadoc_location.png')!important ;
+}
+
+.link-additional-src{
+	background-image: url('../img/eclipse-icons/link_additional_src.png')!important ;
+}
+
+.native-library-location{
+	background-image: url('../img/eclipse-icons/native_library_location.png')!important ;
+}
+
+.order-and-export{
+	background-image: url('../img/eclipse-icons/order_and_export.png')!important ;
+}
+
+.project{
+	background-image: url('../img/eclipse-icons/project.png')!important ;
+}
+
+.remove-build-path{
+	background-image: url('../img/eclipse-icons/remove_build_path.png')!important ;
+}
+
+.remove-build-path{
+	background-image: url('../img/eclipse-icons/remove_build_path.png')!important ;
+}
+
+.source-attachment{
+	background-image: url('../img/eclipse-icons/source_attachment.png')!important ;
+}
+
+
+.search-filter{
+	background-image: url('../img/defaults/icons/glass.png')!important ;
+	background-repeat: no-repeat;
+	background-position:102 1;
+	padding-right:16;
+        /*float:right;*/
+}
+.select-all-src{
+	background-image: url('../img/eclipse-icons/select-all-src.png')!important ;
+}
+
+.src-folder{
+	background-image: url('../img/eclipse-icons/src_folder.png')!important ;
+}
+
+.unselect-all-src{
+	background-image: url('../img/eclipse-icons/unselect-all-src.png')!important ;
+}
+
+.use-as-src-folder{
+	background-image: url('../img/eclipse-icons/use_as_src_folder.png')!important ;
+}

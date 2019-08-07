@@ -1,0 +1,33 @@
+[
+	{
+		"name": "router",
+		"value":[{
+			"name": "app",
+			"value": "app/"
+		},{
+			"name": "plugins",
+			"type": "collection",
+			"value": "plugins/"
+		},{
+			"name": "lib",
+			"type": "collection",
+			"value": "lib/|../../lib/"
+		},{
+			"name": "request",
+			"value": ""
+		}]	
+	},{
+		"name": "loader",
+		"value":[
+			{
+				"name": "package",
+				"type": "importCollection",
+				"value": "ioc|front|config|out"
+			},{
+				"name": "filter",
+				"type": "importCollection",
+				"value": "ioc|front|config|out"
+			}
+		]
+	}
+]

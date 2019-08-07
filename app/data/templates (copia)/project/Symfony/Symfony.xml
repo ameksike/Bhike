@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="Project" Version="1.0.2">
+    <TemplateData>
+        <Name>Symfony</Name>
+        <Description>This is a project template sample...</Description>
+        <Icon>favicon.png</Icon>
+        <PreviewImage>Preview.png</PreviewImage>
+        <ProjectType>Symfony</ProjectType>
+        <TemplateID>sample-09a6d1ef</TemplateID>
+        <SortOrder>100</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>TemplateSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Hidden>false</Hidden>
+        <LocationField>Disabled</LocationField>
+        <RequiredFrameworkVersion>symfony 1.4.2</RequiredFrameworkVersion>
+        <SupportsMasterPage>false</SupportsMasterPage>
+        <SupportsCodeSeparation>false</SupportsCodeSeparation>
+        <SupportsLanguageDropDown>false</SupportsLanguageDropDown>
+    </TemplateData>
+    <TemplateContent>
+	<Collection>
+	    <TemplateLink ProjectName="MyProject"></TemplateLink>
+	    <SolutionFolder Name="Solution"></SolutionFolder>
+	</Collection>
+	<Container File="Project.proj" TargetFileName=".bhproj/{{projectname}}.ksproj" ReplaceParameters="true">
+	    <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="false" TargetFileName="">
+		index.html
+	    </Item>
+	    <Folder Name="app">
+	        <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="false" TargetFileName="">index.html</Item>
+	    </Folder>
+	    <Folder Name="core">
+		<Folder Name="cfg">
+		    <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="false" TargetFileName="config.xml">config.xml</Item>
+		</Folder>
+	    </Folder>
+	</Container>
+    </TemplateContent>
+    <!--<WizardExtension>
+		<Assembly>Symfony.Wizard</Assembly>
+		<Item>wizard/Symfony.Wizard.js</Item>		
+    </WizardExtension>-->
+</BHTemplate>

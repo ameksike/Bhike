@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Linker Type="Application" Version="1.0">
+	<Data>
+		<Name>LinkerDiagram</Name>
+		<Project>BHike</Project>
+	</Data>
+	<Content></Content>
+</Linker>

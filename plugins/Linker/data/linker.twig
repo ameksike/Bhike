@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Linker Type="{{ data.type }}" Version="{{ data.version }}">
+	<Data>
+		<Name>{{ data.name }}</Name>
+		<Project>{{ data.project }}</Project>
+	</Data>
+	<Content>
+		{% for class in data.content.classes %}<Class Name="{{ class.label }}" TargetFile="{{ class.targetFile }}">
+{% for iport in class.iPorts %}
+			<iPorts>{{ iport }}</iPorts>
+{% endfor %}
+{% for oport in class.oPorts %}
+			<oPorts>{{ oport }}</oPorts>
+{% endfor %}
+			<GUI>
+				<attrs>
+					<fill>{{ class.attrs.fill }}</fill>
+				</attrs>
+				<rect>
+					<x>{{ class.rect.x }}</x>
+					<y>{{ class.rect.y }}</y>
+					<height>{{ class.rect.height }}</height>
+					<width>{{ class.rect.width }}</width>
+				</rect>
+			</GUI>
+		</Class>
+		{% endfor %}{% for link in data.content.links %}<Link Mode="{{ link.mode }}" Active="{{ link.active }}">
+			<trigger_class>{{ link.trigger_class }}</trigger_class>
+			<trigger_action>{{ link.trigger_action }}</trigger_action>
+			<target_class>{{ link.target_class }}</target_class>
+			<target_action>{{ link.target_action }}</target_action>
+		</Link>		
+	{% endfor %}</Content>
+</Linker>

@@ -1,0 +1,12 @@
+<schema type="project">
+	<router type="collection">
+		<app value="app/"/>
+		<plugins type="collection" value="plugins/"/>
+		<lib type="collection" value="../../libs/|libs/"/>
+		<request value=""/>
+	</router>
+	<loader type="collection">
+		<package type="importCollection" value="ioc|front|config|out"/>
+		<filter type="importarCollection" value="ioc|front|config|out"/>
+	</loader>
+</schema>

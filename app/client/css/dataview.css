@@ -1,0 +1,106 @@
+
+.details{
+    padding: 10px;
+    text-align: center;
+}
+.details-info{
+    border-top: 1px solid #cccccc;
+    font: 11px Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.details img:hover {
+	height:72px;
+	width:80px;
+}
+
+.details img, .thumb-wrap img{
+    height: 48px;
+    width: 48px;
+}
+.details-info b{
+    color: #000;
+    display: block;
+    font-weight:bold;
+    margin-bottom: 4px;
+}
+
+.details-info span{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.icons-viewer {
+    background: white;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.icons-viewer .thumb{
+    background: transparent;
+    padding: 3px;
+}
+.icons-viewer .thumb img{
+    height: 48px;
+    width: 48px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.list-thumb{
+	float:left;
+    height: 16px;
+    width: 16px;
+    margin-left:-10px;
+    margin-right:5px;
+}
+
+.image-label {
+	margin-left: 0px;
+	margin-top: 18px;
+	display:inline-block;
+	float:left;
+	text-align: left;
+}
+
+.icons-viewer .thumb-wrap {
+	float:left;
+    margin: 4px;
+    max-width:75px;
+    margin-right: 0;
+    padding: 5px;
+}
+.icons-viewer .thumb-wrap span{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    min-width:40px;
+}
+.icons-viewer .x-view-over{
+    border:1px solid #dddddd;
+    background-color: #efefef;
+    /*background: #efefef url('../../resources/images/default/grid/row-over.gif') repeat-x left top;*/
+    padding: 4px;
+}
+.icons-viewer .x-view-selected{
+    background-color: #DFEDFF;
+    border: 1px solid #6593cf;
+    padding: 4px;
+}
+.icons-viewer .x-view-selected .thumb{
+    background:transparent;
+}
+.icons-viewer .x-view-selected span{
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+}
+.icons-viewer .loading-indicator {
+    font-size:11px;
+    background-image:url('../../resources/images/grid/loading.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left:20px;
+    margin:10px;
+}

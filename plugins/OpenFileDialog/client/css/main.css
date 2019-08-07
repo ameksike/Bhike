@@ -1,0 +1,33 @@
+/* 
+    Document   : main
+    Created on : 18-jun-2011, 0:55:27
+    Author     : nessus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+div .filedata{
+    float:left;
+    padding-left:5px;    
+    position: inherit;
+    height:34px;
+}
+
+div .filedata img{
+    float:left;
+    padding:2px;    
+    position: inherit;
+}
+
+.filename{
+    display: block;
+    float:right;   
+    text-align: left;
+    position: inherit;    
+    margin-top: 10px;
+    margin-left: 2px;
+}

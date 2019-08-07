@@ -1,0 +1,114 @@
+[{
+		'issue': 'General',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': '00%',  'description': 'Definición de un sistema de empaquetado para la administración de proyectos, similar a vpp == zip'},
+			{ 'status': '00%',  'description': 'Definición de un sistema de empaquetado para la importación de (Driver, Packages)'},
+			{ 'status': '00%',  'description': 'Gestión de empaquetado y descarga para proyectos desarrollados'}
+		]
+	},{
+		'issue': 'Linker',
+		'description': 'Modudulo para la gestion de liker',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': '00%',  'description': 'Modulo Generación de Señales y Ranuras de forma gráfica'},
+			{ 'status': '00%',  'description': 'Permitir conectar los slot con signal'},
+			{ 'status': '00%',  'description': 'Permitir desconectar los slot con signals'},
+			{ 'status': '00%',  'description': 'Permitir definir o especificar el modo de ejecución (pre|pos)'},
+			{ 'status': '00%',  'description': 'Identificar cuales son los slot que pertenecen a determinada señal'},
+		]
+	},{
+		'issue': 'Source Code',
+		'description': 'Modudulo para la gestion codigo fuente',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': 'ok!',  'description': 'Coloreado de sintaxis'},
+			{ 'status': '00%',  'description': 'Identificación de errores'},
+			{ 'status': '00%',  'description': 'Permitir acceder exactamente a donde se emitió el mensaje'}
+		]
+	},{
+		'issue': 'LogManager',
+		'description': 'Modulo Administración de los log',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': '00%',  'description': 'Mostrar listado de logs'},
+			{ 'status': '00%',  'description': 'Mostrar informacion en detalles de logs'},
+			{ 'status': '00%',  'description': 'Eliminar los logs'},
+			{ 'status': '00%',  'description': 'Analisis estadistico de logs (inteligencia)'}
+		]
+	},{
+		'issue': 'ProjectManager',
+		'description': 'Modulo Administración de los proyectos',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': '00%',  'description': 'Abrir un proyecto'},
+			{ 'status': '00%',  'description': 'Mostrar listado de los proyectos recientes'},
+			{ 'status': '00%',  'description': 'Cerrar un proyecto o grupos de estos'},
+			{ 'status': '00%',  'description': 'Definir la estructura que se va a mostrar en el Explorador de Proyectos y sus funcionalidades'},
+		]
+	},{
+		'issue': 'DependenciesManager',
+		'description': 'Modulo para la gestion de dependencia, (requisito del los proyectos)',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': 'ok!',  'description': 'Abrir un proyecto'},
+			{ 'status': 'ok!',  'description': 'Mostrar listado de los proyectos recientes'},
+			{ 'status': '00%',  'description': 'Cerrar un proyecto o grupos de estos'},
+			{ 'status': '00%',  'description': 'Definir la estructura que se va a mostrar en el Explorador de Proyectos y sus funcionalidades'},
+			{ 'status': '00%',  'description': 'Modificar los valores especificados en las plantillas'},
+			{ 'status': '00%',  'description': 'Permitir la adición de lib existentes [packages, driver, app, plugin]'},
+			{ 'status': '00%',  'description': 'Permitir la creación de Plugins a partir de plantillas '},
+			{ 'status': '00%',  'description': 'Manejar la configuración de dependencias para los nuevos proyectos (Packages, Filters, etc).'},
+			{ 'status': '00%',  'description': 'Manejar la configuración de los Packages a utilizar'},
+			{ 'status': '00%',  'description': 'Crear un panel de propiedades que acepte varios tipos de datos.'},
+			{ 'status': '00%',  'description': 'Reconocer la existencia de proyectos según nombre en el directorio donde se va a crear los mismos y proponer nombre.'},
+			{ 'status': '00%',  'description': 'Permitir especificar si se desea crear proyectos monoliticos o multi'},
+			{ 'status': '00%',  'description': 'Permitir especificar que núcleo de Ksike usar (Larva | Elephant | Rhino | Snake | Lazy)'},
+			{ 'status': '00%',  'description': ''},
+			{ 'status': '00%',  'description': ''},
+		]
+	},{
+		'issue': 'Publisher',
+		'description': 'Modulo para la gestion de publicaciones',
+		'status': 'develop',
+		'dateIn': '',
+		'dateOut': '',
+		'task': [			
+			{ 'status': '00%',  'description': ''},
+			{ 'status': '00%',  'description': ''},
+		]
+	}
+]
+	
+	
+
+ (00%) - Asimilar recurso provistos en framework tales como Symfony(Consumo de memoria/cup), Kohana(generador de documentación de código), etc
+
+ (00%) - Modulo Administración de Doctrine
+ (00%) 		- Introducir los datos de conexión a la BD
+ (00%) 		- Especificar el directorio donde se depositaran las clases mapeadas
+ (00%) 		- Ejecutar el Mapeo 
+ 
+ (00%) - Modulo gestion de servicios de Administración (tools)
+ (00%) 		- Permitir configurar el servidor de app web para que interprete Python
+ (00%) 		- Permitir configurar el servidor de app web para que interprete Javascript (usando NodeJs)
+ (00%) 		- Permitir la gestión de reiniciado de servidores (DB, App Web)
+ (00%) 		- Permitir la gestión de host virtuales
+ 
+ (00%) - Modulo para la ejecución de un proyecto
+ (00%) - Modulo para la gestión de plantillas
+ (00%) - Modulo para la creación de GUI
+ (00%) 		- Soporte para JQuery
+ (00%) 		- Soporte para ExtJs
+------------------------------------------------------------

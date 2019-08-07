@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="App" Version="0.3">
+    <TemplateData>
+        <Name>ExtJS</Name>
+		<Description>ExtJS-Description</Description>
+		<Icon>icon.png</Icon>
+        <ProjectType>Ksike/Symfony/Web</ProjectType>
+		<DefaultName>ExtJS</DefaultName>
+		<SortOrder>20</SortOrder>
+		<PreviewImage>preview.png</PreviewImage>
+    </TemplateData>
+    <TemplateContent>
+		<Folder Name="jslib">
+			<Folder Name="extjs">
+				<ProjectItem Name="ext-all.js"/>
+				<Folder Name="resources"></Folder>
+			</Folder>
+		</Folder>
+    </TemplateContent>
+    <WizardExtension>
+		<Assembly>ExtJS.Wizard</Assembly>
+		<Item>wizard/ExtJS.Wizard.js</Item>		
+    </WizardExtension>
+</BHTemplate>

@@ -1,0 +1,10 @@
+{
+	"info":[{
+		"type":0,
+		"date":"2011/11/23 01:00:56",
+		"file":"/var/www/p/tools/BHike/plugins/ProjectManager/server/common/tpl/Tpl_Admin.php",
+		"line":66,
+		"description":"Undefined index: image"
+	}]	
+	
+}

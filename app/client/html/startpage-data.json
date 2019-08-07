@@ -1,0 +1,107 @@
+{
+    'data':[{
+        'title':"Get Started",
+        'content':[{
+            'image': 'app/client/img/docs/img1.png',
+            'topic':'What is New in BHike',	
+            'links':[{
+                'reference':"www.wordpress.nosinc.com",
+                'text':"BHike Online Documentation"
+            },{
+                'reference':"www.wordpress.nosinc.com",
+                'text':"Nosinc Blog"
+            },{ 
+               'reference':"https://correo.estudiantes.uci.cu",
+               'text':"What is IDE BHike FAQ"
+            }],
+            'description':'BHike is conceived as an informatics solution that pretends to solve the deficiencies of Ksike.'
+        },{
+            'image':'app/client/img/docs/img4.png',
+            'topic':'Future of BHike',	
+            'links':[{ 
+                'reference':"https://correo.estudiantes.uci.cu",
+                'text':"Email"
+            },{
+                'reference':"https://correo.estudiantes.uci.cu",
+                'text':"Email"
+            }],
+            'description':"Esto es una prueba"
+        },{
+            'image':'app/client/img/docs/img3.png',
+            'topic':'Building GUI with ExtJS',	
+            'links':[{ 
+                'reference':"www.sencha.com",
+                'text':"Sencha ExtJS"
+            },{
+                'reference':"www.bhike.com/faq?asking=2",
+                'text':"BHike Forum"
+            }],
+            'description':"Making GUI for Ksike applications by using of ExtJS."
+        },{
+            'image':'app/client/img/docs/img2.png',
+            'topic':'What is Old in BHike',
+            'description':"Testing."
+        },{
+            'image':'app/client/img/docs/img5.png',
+            'topic':'What is this?',	
+            'links':[{ 
+                'reference':"www.sencha.com",
+                'text':"Sencha ExtJS"
+            },{
+                'reference':"www.bhike.com/faq?asking=2",
+                'text':"BHike Forum"
+            }],
+            'description':"Making GUI for Ksike applications by using of ExtJS."
+        }]
+    },{
+        'title':"Comunity",
+        'content':[{
+            'image':'app/client/img/docs/img1.png',
+            'topic':'Future of BHike',	
+            'links':[{ 
+                'reference':"https://correo.estudiantes.uci.cu",
+                'text':"Email"
+            },{
+                'reference':"https://correo.estudiantes.uci.cu",
+                'text':"Email"
+            }],
+            'description':"This is a simple test"
+        },{
+            'image':'app/client/img/docs/img6.png',
+            'topic':'Building GUI with ExtJS',	
+            'links':[{ 
+                'reference':"www.sencha.com",
+                'text':"Sencha ExtJS"
+            },{
+                'reference':"www.bhike.com/faq?asking=2",
+                'text':"BHike Forum"
+            }],
+            'description':"Making GUI for Ksike applications by using of ExtJS."
+        },{
+            'image':'app/client/img/docs/img4.png',
+            'topic':'What is this?',	
+            'links':[{ 
+                'reference':"www.sencha.com",
+                'text':"Sencha ExtJS"
+            },{
+                'reference':"www.bhike.com/faq?asking=2",
+                'text':"BHike Forum"
+            }],
+            'description':"Making GUI for Ksike applications by using of ExtJS."
+        }]
+    },{
+        'title':"Products",
+        'content':[{
+            'image':'app/client/img/docs/img4.png',
+            'topic':'What is this?',	
+            'links':[{ 
+                'reference':"www.sencha.com",
+                'text':"Sencha ExtJS"
+            },{
+                'reference':"www.bhike.com/faq?asking=2",
+                'text':"BHike Forum"
+            }],
+            'description':"Making GUI for Ksike applications by using of ExtJS."
+        }]
+    }]
+}

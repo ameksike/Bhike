@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="Project" Version="1.0.2">
+    <TemplateData>
+        <Name>KsikeEmptyProject</Name>
+        <Icon>icon.png</Icon>
+        <Description>Ksike empty project, includes all Ksike's basic artifacts but it has no plugins or related applications.</Description>
+        <ProjectType>Ksike</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateID>sample-09a6d1ef</TemplateID>
+        <TemplateGroupID>Projects</TemplateGroupID>
+        <SortOrder>10</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>TemplateSample</DefaultName>
+        <LocationField>Enabled</LocationField>
+        <RequiredFramework Name="Ksike" Alias="Ksike-Larva" Version="1.0"/>
+        <SupportsMasterPage>false</SupportsMasterPage>
+        <SupportsCodeSeparation>false</SupportsCodeSeparation>
+        <LanguageDropDown Languages="JavaScript/PHP/Python"/>
+    </TemplateData>
+    <TemplateContent>		
+		<Project File="KsikeEmptyProject.twig" TargetFileName="{{ safename }}.ksproj" ReplaceParameters="true">
+			<ProjectItem Name="icon.png"/>
+			<ProjectItem Name="index.php.twig" TargetFileName="index.php" ReplaceParameters="true"/>
+			<Folder Name="core">
+				<Folder Name="cfg">
+					<ProjectItem Name="config.php.twig" TargetFileName="config.php" ReplaceParameters="true"/>
+					<ProjectItem Name="config.js.twig" TargetFileName="config.js" ReplaceParameters="true"/>
+				</Folder>
+				<Folder Name="mtd">
+					<ProjectItem Name="schema.json.twig" TargetFileName="schema.json" ReplaceParameters="true"/>
+					<ProjectItem Name="metadata.json.twig" TargetFileName="metadata.json" ReplaceParameters="true"/>
+				</Folder>
+			</Folder>
+		</Project>
+    </TemplateContent>
+    <WizardExtension>
+		<Assembly>Ksike.Wizard</Assembly>
+		<Item>wizard/Ksike.Wizard.js</Item>
+		<Item>wizard/views/DependenciesManagerPanel.js</Item>
+		<Item>wizard/views/ProjectConfigurationPanel.js</Item>
+		<Item>wizard/controllers/ProjectConfigurationPanel.class.js</Item>
+		<Item>wizard/views/ProjectConstantsPanel.js</Item>
+		<Item>wizard/views/ProjectVariablesManager.js</Item>
+    </WizardExtension>
+    <WizardData>
+		<KsikeConstant>
+			<Name>KCL_EXT</Name>
+			<Value>php</Value>
+			<Category>Designation</Category>
+			<Description>Extensión de fichero para código del fuente en función del lenguaje.</Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_NEXT</Name>
+			<Value></Value>
+			<Category>Designation</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_MAIN</Name>
+			<Value></Value>
+			<Category>Designation</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_PROJ</Name>
+			<Value>/project</Value>
+			<Category>Publishing</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_WEB</Name>
+			<Value></Value>
+			<Category>Publishing</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_CONFIG</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_SRC</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_LOG</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_INCLUDER</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_ERROR</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+    </WizardData>
+</BHTemplate>

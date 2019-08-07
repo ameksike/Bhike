@@ -1,0 +1,20 @@
+<metadata type="project">
+	<info>
+		<name>BHike</name>
+		<type>multiple</type>
+		<icon>no icon</icon>
+		<version>1.0</version>
+		<alias>Alpha</alias>
+		<authors>Yadir Hernandez Batista|Antonio Membrides Espinosa</authors>
+		<license>LGPL v3</license>		
+		<made>2010/06/15</made>
+		<update>2013/03/25</update>
+		<description>This project is an IDE Built on ICU, Cuba for building Ksike applications.</description>
+		<template>Ksike</template>
+	</info>
+	<dependencies>
+		<name>Ksike</name>
+		<version>1.1</version>
+		<path>../../</path>
+	</dependencies>
+</metadata>

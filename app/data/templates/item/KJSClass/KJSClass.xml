@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>JSClass</Name>
+        <Description>An empty Ksike's JavaScript class definition.</Description>
+        <Icon>icon.png</Icon>
+        <Type>Ksike Items</Type>
+        <SubType>Code</SubType>
+        <SortOrder>10</SortOrder>
+        <DefaultName>JSClass</DefaultName>
+        <ProvideDefaultName>false</ProvideDefaultName>
+    </TemplateData>
+    <TemplateContent>
+		<Item ReplaceParameters='true' TargetFileName='item.js.tpl'>
+			<Value>{$GLOBALS['name']}.js</Value>
+		</Item>
+    </TemplateContent>
+</BHTemplate>

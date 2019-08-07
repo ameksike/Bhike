@@ -1,0 +1,113 @@
+ .ext-el-mask.splashscreen {
+    background-color: white;
+    opacity: 1;
+}
+
+.ext-el-mask-msg.splashscreen,
+.ext-el-mask-msg.splashscreen div {
+    font-size: 16px;
+    padding: 30px 5px 5px 5px;
+    border: none;
+    background-color: transparent;
+    background-position: top center;
+}
+
+.ext-el-message-box .ext-el-window-body .ext-el-box-inner {
+    min-height: 110px !important;
+}
+
+.x-splash-icon {
+    /* Important required due to the loading symbols CSS selector */
+    background-image: url('images/logo-splash.png') !important;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+ #header-div{
+    border:0 none;
+    background:#1E4176 url("../img/defaults/hd-bg.gif") repeat-x 0 0;
+    padding-top:3px;
+    padding-left:3px;
+}
+.docs-header .x-panel-body {
+    background:transparent;
+}
+
+.title-darkblue{
+	border:0 none;
+    background:#1E4176 url("../img/defaults/hd-bg.gif") repeat-x 0 0;
+    color:white;
+    font-weight:bold;
+}
+
+#header-div .api-title {
+    font:normal 16px tahoma, arial, sans-serif;
+    color:white;
+    margin:5px 0px;
+    text-align:center;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+
+.start-page-thumbs{
+    font: 11px Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin:5px;
+}
+
+.thumbs{
+    width:60px;
+    height:40px;
+    float:left;
+}
+
+.thumbs-clicked{
+    width:150px;
+    height:100px;
+    float:left;
+}
+
+.start-page-thumbs span,.start-page-thumbs-clicked span{
+    top:2px;
+    margin-left:10px;
+    font: 11px Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: left;
+    display:block;
+    float:left;
+}
+.start-page-thumbs-clicked p{
+    top:2px;
+    margin-left:10px;
+    font: 11px Arial, Helvetica, sans-serif;
+    text-align: left;
+    display:block;
+    float:left;
+}
+.start-page-thumbs a,.start-page-thumbs-clicked a{
+    font: 11px Arial, Helvetica, sans-serif;
+    color:blue;
+    float:left;
+}
+
+.div-hidden{
+	display:none;
+}
+
+.div-visible{
+	display:block;
+}
+
+.start-page-header
+{
+	/*background: transparent url("../img/defaults/startpage-h.png") no-repeat 0 0;	*/
+	background:transparent url("../img/docs/baner.png") no-repeat;
+	background-color:#fff;
+	color:black;
+	height:50px;
+	width:auto;
+	border:transparent;
+}

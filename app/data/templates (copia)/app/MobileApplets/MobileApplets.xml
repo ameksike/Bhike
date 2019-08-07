@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="App" Version="0.3">
+    <TemplateData>
+        <Name>MobileApplets</Name>
+        <Description>Sirve para utilizar en el desarrollo de applets para Mobile</Description>
+        <PreviewImage>Preview.png</PreviewImage>
+        <Icon>icon.png</Icon>
+        <ProjectType>Ksike</ProjectType>
+        <SortOrder>30</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>MobileApplets</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Hidden>false</Hidden>
+        <LocationField>Enabled</LocationField>
+        <RequiredFrameworkVersion>ksike 1.1</RequiredFrameworkVersion>
+        <SupportsMasterPage>false</SupportsMasterPage>
+        <SupportsCodeSeparation>false</SupportsCodeSeparation>
+        <SupportsLanguageDropDown>false</SupportsLanguageDropDown>
+    </TemplateData>
+    <TemplateContent>
+        <Collection>
+            <TemplateLink ProjectName="MyProject"></TemplateLink>
+            <SolutionFolder Name="Solution"></SolutionFolder>
+        </Collection>
+        <Container File="Project.proj" TargetFileName=".bhproj/{{projectname}}.ksproj" ReplaceParameters="true">
+            <Folder Name="cfg">
+                <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="true" TargetFileName="cfg/config.xml">
+                    <Value>config.xml</Value>
+                </Item>
+            </Folder>
+            <Folder Name="client">
+                <Folder Name="css">
+                    <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="true" TargetFileName="client/css/main.css">
+                        <Value>main.css</Value>
+                    </Item>
+                </Folder>
+                <Folder Name="images"></Folder>
+                <Folder Name="js">
+                    <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="true" TargetFileName="client/js/Main.js">
+                        <Value>Main.js</Value>
+                    </Item>
+                </Folder>
+            </Folder>
+            <Folder Name="server">
+                <Item SubType="" CustomTool="" ItemType="" ReplaceParameters="true" TargetFileName="server/Main.php">
+                    <Value>Main.php</Value>
+                </Item>
+            </Folder>
+        </Container>
+    </TemplateContent>
+</BHTemplate>

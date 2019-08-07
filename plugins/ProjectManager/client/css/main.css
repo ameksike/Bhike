@@ -1,0 +1,39 @@
+/* 
+    Document   : main
+    Created on : 11-jun-2011, 21:37:08
+    Author     : nessus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.config-details{
+    padding: 10px;
+    text-align: left;
+    height: 100%;
+}
+.config-details-info{
+    font: 11px Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-align: left;
+}
+.config-details img{
+    height: 48px;
+    width: 48px;
+}
+.config-details-info b{
+    color: #000;
+    display: block;
+    font-weight:bold;
+    margin-bottom: 4px;
+}
+
+.config-details-info span{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}

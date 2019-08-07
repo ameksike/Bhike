@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TemplateData>
+	<Icon>{{ icon }}</Icon>
+	<PreviewImage>{% if previewimage is defined %}{{ previewimage }}{% else %}{{ icon }}{% endif %}</PreviewImage>
+	<EnableEditOfLocationField>{% if enableeditoflocationfield is defined %}{{ enableeditoflocationfield }}{% else %}true{%endif%}</EnableEditOfLocationField>
+	<EnableLocationBrowseButton>{% if enablelocationbrowsebutton is defined %}{{ enablelocationbrowsebutton }}{% else %}true{%endif%}</EnableLocationBrowseButton>
+	{% if customdatasignature is defined %}<CustomDataSignature>{{ customdatasignature }}</CustomDataSignature>{%endif%}
+	<ProvideDefaultName>{% if providedefaultname is defined %}{{ providedefaultname}}{% else %}true{%endif%}</ProvideDefaultName>
+	<DefaultName>{% if defaultname is defined %}{{ defaultname }}{% else %}{{ name }}{%endif%}</DefaultName>
+	<LocationField>{% if locationfield is defined %}{{ locationfield }}{% else %}Enabled{%endif%}</LocationField>
+	{% if name.packageid is defined %}<Name Package="{{ name.packageid }}" ID="{{ name.resourceid }}"/>{% else %}<Name>{{ name }}</Name>{% endif %}
+	<NumberOfParentCategoriesToRollUp>{% if numberofparentcategoriestorollup is defined %}{{ numberofparentcategoriestorollup }}{% else %}0{% endif %}</NumberOfParentCategoriesToRollUp>
+	{% if projectsubtype is defined %}<ProjectSubType>{{ projectsubtype }}</ProjectSubType>{%endif%}
+	<ProjectType>{{ projecttype }}</ProjectType>
+	<PromptForSaveOnCreation>{% if promptforsaveoncreation is defined %}{{ promptforsaveoncreation }}{% else %}false{%endif%}</PromptForSaveOnCreation>
+	{% if requiredframework is defined %}<RequiredFramework Name="{{ requiredframework.name }}" Alias="{{ requiredframework.alias }}" Version="{{ requiredframework.version }}"/>{% endif %}
+	<ShowByDefault>{% if showbydefault is defined %}{{ showbydefault }}{% else %}true{%endif%}</ShowByDefault>
+	{% if templategroupid is defined %}<TemplateGroupID>{{ templategroupid }}</TemplateGroupID>{%endif%}
+	<SortOrder>{% if sortorder is defined %}{{ sortorder }}{% else %}100{%endif%}</SortOrder>
+	<SupportsCodeSeparation>{% if supportscodeseparation is defined %}{{ supportscodeseparation }}{% else %}false{%endif%}</SupportsCodeSeparation>
+	{% if languagedropdown is defined %}<LanguageDropDown Languages="{%for language in languagedropdown.languages%}{{ language }}/{% endfor %}"/>{%endif%}
+	<SupportsMasterPage>{% if supportsmasterpage is defined %}{{ supportsmasterpage }}{% else %}false{%endif%}</SupportsMasterPage>
+	<TemplateID>{% if templateid is defined %}{{ templateid }}{% else %}{{ name }}{%endif%}</TemplateID>
+	<Description>{{ description }}</Description>
+	<Hidden>{% if hidden is defined %}{{ hidden }}{% else %}false{%endif%}</Hidden>
+</TemplateData>

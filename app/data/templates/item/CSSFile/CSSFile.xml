@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>css file</Name>
+        <Description>An empty cascade stylesheet file.</Description>
+        <Icon>icon.png</Icon>
+        <Type>Otros</Type>
+        <SortOrder>100</SortOrder>
+        <DefaultName>styles</DefaultName>
+        <TemplateGroup>BHike Templates</TemplateGroup>
+    </TemplateData>
+    <TemplateContent>
+		<Item ReplaceParameters='true' TargetFileName='item.css.tpl'>
+			<Value>{$GLOBALS['name']}.css</Value>
+		</Item>
+    </TemplateContent>
+</BHTemplate>

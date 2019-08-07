@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Linker Type="Application" Version="1.0">
+	<Data>
+		<Name>LinkerDiagram</Name>
+		<Project>BHike</Project>
+	</Data>
+	<Content>
+		<Class Name="ProjectManager" TargetFile="/media/Datos/Usuarios/Yadir/Trabajo/www/dev/project/testedproj/plugins/Linker/server/linker/classes/class.php">
+			<oPorts>ReBuildThis</oPorts>
+			<GUI>
+				<attrs>
+					<fill>90-#000-green:1-#fff</fill>
+				</attrs>
+				<rect>
+					<x>0.5</x>
+					<y>0.5</y>
+					<height>150</height>
+					<width>60</width>
+				</rect>
+			</GUI>
+		</Class>
+		<Class Name="ErrorReporter" TargetFile="/media/Datos/Usuarios/Yadir/Trabajo/www/dev/project/testedproj/plugins/Linker/server/linker/classes/class2.php">
+			<iPorts>onCloseDir</iPorts>
+			<GUI>
+				<attrs>
+					<fill>90-#000-green:1-#fff</fill>
+				</attrs>
+				<rect>
+					<x>0.5</x>
+					<y>0.5</y>
+					<height>150</height>
+					<width>60</width>
+				</rect>
+			</GUI>
+		</Class>
+		<Link Mode="post-order" Active="1">
+			<trigger_class>ProjectManager</trigger_class>
+			<trigger_action>ReBuildThis</trigger_action>
+			<target_class>ErrorReporter</target_class>
+			<target_action>onCloseDir</target_action>
+		</Link>		
+	</Content>
+</Linker>

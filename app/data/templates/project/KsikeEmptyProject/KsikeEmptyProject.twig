@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    Document   : project.xml
+    Created on : {{ time }}
+    Author     : {{ username }}
+    Description:
+        Purpose of the document follows.
+-->
+
+<BHProject Type='{{ template.type }}' Version='{{ template.version }}'>
+    <ProjectData>
+        <Name>{$GLOBALS['name']}</Name>
+        <Serial>{$GLOBALS['serial']}</Serial>
+        <CreationDate>{$GLOBALS['creation_date']}</CreationDate>
+        <Path>{$GLOBALS['path']}{$GLOBALS['name']}/</Path>
+    </ProjectData>
+    <SessionData>
+		<Item>index.php</Item>
+		<Module>Editor</Module>
+    </SessionData>
+</BHProject>

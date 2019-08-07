@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="Project" Version="1.0.2">
+    <TemplateData>
+        <Name>Ksike-Name</Name>
+        <Description>Ksike-Description</Description>
+        <PreviewImage>Preview.png</PreviewImage>
+        <ProjectType>Ksike</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateID>sample-09a6d1ef</TemplateID>
+        <SortOrder>10</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>TemplateSample</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Hidden>false</Hidden>
+        <LocationField>Enabled</LocationField>
+        <RequiredFrameworkVersion>ksike 1.1</RequiredFrameworkVersion>
+        <SupportsMasterPage>false</SupportsMasterPage>
+        <SupportsCodeSeparation>false</SupportsCodeSeparation>
+        <SupportsLanguageDropDown>false</SupportsLanguageDropDown>
+    </TemplateData>
+    <TemplateContent>
+        <Collection>
+            <TemplateLink ProjectName="MyProject"></TemplateLink>
+            <SolutionFolder Name="Solution"></SolutionFolder>
+        </Collection>
+        <Container File="Project.bhproject" TargetFileName=".bhproject/{{projectname}}.ksproj" ReplaceParameters="true">
+            <Item ReplaceParameters="true" TargetFileName="index.php">
+                <Value>index.php</Value>
+            </Item>            
+            <Folder Name="core">
+                <Folder Name="cfg">
+                    <Item ReplaceParameters="true" TargetFileName="core/cfg/config.php">
+                        <Value>config.php</Value>
+                    </Item>
+                    <Item ReplaceParameters="true" TargetFileName="core/cfg/init.js">
+                        <Value>init.js</Value>
+                    </Item>
+                </Folder>
+            </Folder>
+            <Folder Name="lib"></Folder>
+            <Folder Name="plugins"></Folder>
+        </Container>
+    </TemplateContent>
+    <WizardExtension>
+		<Assembly>Ksike.Wizard</Assembly>
+		<Item>wizard/Ksike.Wizard.js</Item>
+		<Item>wizard/views/DependenciesManagerPanel.js</Item>
+		<Item>wizard/views/ProjectConfigurationPanel.js</Item>
+		<Item>wizard/controllers/ProjectConfigurationPanel.class.js</Item>
+		<Item>wizard/views/ProjectConstantsPanel.js</Item>
+		<Item>wizard/views/ProjectVariablesManager.js</Item>
+    </WizardExtension>
+    <WizardData>
+		<KsikeConstant>
+			<Name>KCL_EXT</Name>
+			<Value>php</Value>
+			<Category>Designation</Category>
+			<Description>Extensión de fichero para código del fuente en función del lenguaje.</Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_NEXT</Name>
+			<Value></Value>
+			<Category>Designation</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_MAIN</Name>
+			<Value></Value>
+			<Category>Designation</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_PROJ</Name>
+			<Value>/project</Value>
+			<Category>Publishing</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_WEB</Name>
+			<Value></Value>
+			<Category>Publishing</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_CONFIG</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_SRC</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_LOG</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_INCLUDER</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+		<KsikeConstant>
+			<Name>KCL_ERROR</Name>
+			<Value></Value>
+			<Category>Directory</Category>
+			<Description></Description>			
+		</KsikeConstant>
+    </WizardData>
+</BHTemplate>

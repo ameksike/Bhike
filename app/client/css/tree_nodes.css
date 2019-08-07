@@ -1,0 +1,304 @@
+.node-advanced{
+	background-image: url(../img/nodes/node_advanced.png) !important;
+}
+
+.node-aggregate{
+	background-image: url(../img/nodes/node_aggregate.png) !important;
+}
+
+.node-aggregates{
+	background-image: url(../img/nodes/node_aggregates.png) !important;
+}
+
+.node-backgroundprocesses{
+	background-image: url(../img/nodes/node_backgroundProcesses.png) !important;
+}
+
+.node-basetype{
+	background-image: url(../img/nodes/node_baseType.png) !important;
+}
+
+.node-basetypes{
+	background-image: url(../img/nodes/node_baseTypes.png) !important;
+}
+
+.node-checks{
+	background-image: url(../img/nodes/node_checks.png) !important;
+}
+
+.node-colorpalete{
+	background-image: url(../img/nodes/node_colorPalete.png) !important;
+}
+
+.node-columnoptions{
+	background-image: url(../img/nodes/node_columnOptions.png) !important;
+}
+
+.node-compositetype{
+	background-image: url(../img/nodes/node_compositeType.png) !important;
+}
+
+.node-compositetypes{
+	background-image: url(../img/nodes/node_compositeTypes.png) !important;
+}
+
+.node-confirmatons{
+	background-image: url(../img/nodes/node_confirmatons.png) !important;
+}
+
+.node-connecteddb{
+	background-image: url(../img/nodes/node_connectedDB.png) !important;
+}
+
+.node-connection{
+	background-image: url(../img/nodes/node_connection.png) !important;
+}
+
+.node-dataoptions{
+	background-image: url(../img/nodes/node_dataOptions.png) !important;
+}
+
+.node-dbexplorer{
+	background-image: url(../img/nodes/node_dbExplorer.png) !important;
+}
+
+.node-diplayoptions{
+	background-image: url(../img/nodes/node_diplayOptions.png) !important;
+}
+
+.node-directories{
+	background-image: url(../img/nodes/node_directories.png) !important;
+}
+
+.node-disconnecteddb{
+	background-image: url(../img/nodes/node_disconnectedDB.png) !important;
+}
+
+.node-domains{
+	background-image: url(../img/nodes/node_domains.png) !important;
+}
+
+.node-enumtype{
+	background-image: url(../img/nodes/node_enumType.png) !important;
+}
+
+.node-enumtypes{
+	background-image: url(../img/nodes/node_enumTypes.png) !important;
+}
+
+.node-favoritequeries{
+	background-image: url(../img/nodes/node_favoriteQueries.png) !important;
+}
+
+.node-field{
+	background-image: url(../img/nodes/node_field.png) !important;
+}
+
+.node-fields{
+	background-image: url(../img/nodes/node_fields.png) !important;
+}
+
+.node-findoption{
+	background-image: url(../img/nodes/node_findOption.png) !important;
+}
+
+.node-fonts{
+	background-image: url(../img/nodes/node_fonts.png) !important;
+}
+
+.node-foreingkey{
+	background-image: url(../img/nodes/node_foreingKey.png) !important;
+}
+
+.node-foreingkeys{
+	background-image: url(../img/nodes/node_foreingKeys.png) !important;
+}
+
+.node-function{
+	background-image: url(../img/nodes/node_function.png) !important;
+}
+
+.node-functions{
+	background-image: url(../img/nodes/node_functions.png) !important;
+}
+
+.node-functiontable{
+	background-image: url(../img/nodes/node_functionTable.png) !important;
+}
+
+.node-general{
+	background-image: url(../img/nodes/node_general.png) !important;
+}
+
+.node-grid{
+	background-image: url(../img/nodes/node_grid.png) !important;
+}
+
+.node-griddataoptions{
+	background-image: url(../img/nodes/node_gridDataOptions.png) !important;
+}
+
+.node-host{
+	background-image: url(../img/nodes/node_host.png) !important;
+}
+
+.node-httptunneling{
+	background-image: url(../img/nodes/node_httpTunneling.png) !important;
+}
+
+.node-index{
+	background-image: url(../img/nodes/node_index.png) !important;
+}
+
+.node-indices{
+	background-image: url(../img/nodes/node_indices.png) !important;
+}
+
+.node-keymapping{
+	background-image: url(../img/nodes/node_keyMapping.png) !important;
+}
+
+.node-language{
+	background-image: url(../img/nodes/node_language.png) !important;
+}
+
+.node-languages{
+	background-image: url(../img/nodes/node_languages.png) !important;
+}
+
+.node-logs{
+	background-image: url(../img/nodes/node_logs.png) !important;
+}
+
+.node-objecteditors{
+	background-image: url(../img/nodes/node_objectEditors.png) !important;
+}
+
+.node-operator{
+	background-image: url(../img/nodes/node_operator.png) !important;
+}
+
+.node-operators{
+	background-image: url(../img/nodes/node_operators.png) !important;
+}
+
+.node-options{
+	background-image: url(../img/nodes/node_options.png) !important;
+}
+
+.node-preferences{
+	background-image: url(../img/nodes/node_preferences.png) !important;
+}
+
+.node-print{
+	background-image: url(../img/nodes/node_print.png) !important;
+}
+
+.node-projects{
+	background-image: url(../img/nodes/node_projects.png) !important;
+}
+
+.node-public{
+	background-image: url(../img/nodes/node_public.png) !important;
+}
+
+.node-querybuilder{
+	background-image: url(../img/nodes/node_queryBuilder.png) !important;
+}
+
+.node-quickcode{
+	background-image: url(../img/nodes/node_quickCode.png) !important;
+}
+
+.node-reports{
+	background-image: url(../img/nodes/node_reports.png) !important;
+}
+
+.node-rules{
+	background-image: url(../img/nodes/node_rules.png) !important;
+}
+
+.node-schemas{
+	background-image: url(../img/nodes/node_schemas.png) !important;
+}
+
+.node-sequence{
+	background-image: url(../img/nodes/node_sequence.png) !important;
+}
+
+.node-sequences{
+	background-image: url(../img/nodes/node_sequences.png) !important;
+}
+
+.node-spellcheck{
+	background-image: url(../img/nodes/node_spellCheck.png) !important;
+}
+
+.node-sqleditors{
+	background-image: url(../img/nodes/node_sqlEditors.png) !important;
+}
+
+.node-sqlformatter{
+	background-image: url(../img/nodes/node_sqlFormatter.png) !important;
+}
+
+.node-sqlmonitor{
+	background-image: url(../img/nodes/node_sqlMonitor.png) !important;
+}
+
+.node-sqlscript{
+	background-image: url(../img/nodes/node_sqlScript.png) !important;
+}
+
+.node-sqlwords{
+	background-image: url(../img/nodes/node_sqlWords.png) !important;
+}
+
+.node-sshtunneling{
+	background-image: url(../img/nodes/node_sshTunneling.png) !important;
+}
+
+.node-table{
+	background-image: url(../img/nodes/node_table.png) !important;
+}
+
+.node-tablearrow{
+	background-image: url(../img/nodes/node_tableArrow.png) !important;
+}
+
+.node-tables{
+	background-image: url(../img/nodes/node_tables.png) !important;
+}
+
+.node-tablespaces{
+	background-image: url(../img/nodes/node_tablespaces.png) !important;
+}
+
+.node-timeouts{
+	background-image: url(../img/nodes/node_timeouts.png) !important;
+}
+
+.node-tools{
+	background-image: url(../img/nodes/node_tools.png) !important;
+}
+
+.node-triggers{
+	background-image: url(../img/nodes/node_triggers.png) !important;
+}
+
+.node-view{
+	background-image: url(../img/nodes/node_view.png) !important;
+}
+
+.node-views{
+	background-image: url(../img/nodes/node_views.png) !important;
+}
+
+.node-visualdb{
+	background-image: url(../img/nodes/node_visualDB.png) !important;
+}
+
+.node-windows{
+	background-image: url(../img/nodes/node_windows.png) !important;
+}
+

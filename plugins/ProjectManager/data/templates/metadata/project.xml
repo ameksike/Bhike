@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    Document   : project.xml
+    Created on : 11 de marzo de 2012, 14:03
+    Author     : merma
+    Description:
+        Purpose of the document follows.
+-->
+
+<BHProject Type='{$GLOBALS['type']}' Version='{$GLOBALS['version']}'>
+    <ProjectData>
+        <Name>{$GLOBALS['name']}</Name>
+        <Serial>{$GLOBALS['serial']}</Serial>
+        <CreationDate>{$GLOBALS['creation_date']}</CreationDate>
+        <Path>{$GLOBALS['path']}{$GLOBALS['name']}/</Path>
+    </ProjectData>
+    <SessionData>
+		<Item>index.php</Item>
+		<Module>Editor</Module>
+    </SessionData>
+</BHProject>

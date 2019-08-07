@@ -1,0 +1,8 @@
+<?php
+	//.............RECENT PROJECT.....................
+    $config["project"]["recent"]["count"] = {{count}};
+    {% for recent in src %}
+$config["project"]["recent"]["src"]["{{recent.name}}"] = "{{recent.path}}";
+    {% endfor %}    
+    return $config;    
+?>

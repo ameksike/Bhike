@@ -1,0 +1,19 @@
+<metadata type="module">
+	<info>
+		<name>Help</name>
+		<type>module</type>
+		<icon>no icon</icon>
+		<version>1.0</version>
+		<authors>Yadir Hernandez Batista</authors>
+		<license>LGPL v3</license>		
+		<made>2010/06/15</made>
+		<update>2013/03/25</update>
+		<description>This module is the default BHike IDE's code editor.</description>
+		<template>Ksike</template>
+	</info>
+	<dependencies>
+		<name>CodeMirror</name>
+		<version>1.1</version>
+		<path>client/lib/codemirror</path>
+	</dependencies>
+</metadata>

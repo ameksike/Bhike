@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    Document   : project.xml
+    Created on : 11 de marzo de 2012, 14:03
+    Author     : merma
+    Description:
+        Purpose of the document follows.
+-->
+
+<BHProject Type='Ksike' Version='1.0'>
+    <ProjectData>
+        <Name>ProjectManager</Name>
+		<Type>Module</Type>
+    </ProjectData>
+    <SessionData>
+		<Item>index.php</Item>
+		<Module>CodeEditor</Module>
+    </SessionData>
+    <SessionData>
+		<Item>plugins/Editor/client/js/Editor.js</Item>
+		<Module>CodeEditor</Module>
+    </SessionData>
+    <SessionData>
+		<Item>plugins/Editor/client/js/controllers/SourceEditor.class.js</Item>
+		<Module>CodeEditor</Module>
+    </SessionData>
+</BHProject>

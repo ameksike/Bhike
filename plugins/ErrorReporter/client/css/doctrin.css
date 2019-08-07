@@ -1,0 +1,22 @@
+/*
+ * 
+ * Custom icons for doctrine plugin
+ * 
+ * */
+
+.icon-doctconnect{
+	background-image: url(../img/sconnect.png) !important ;
+}
+
+.icon-doctdependency{
+	background-image: url(../img/sdependency.png) !important ;
+}
+
+.icon-doctexportmodel{
+	background-image: url(../img/sexportmodel.png) !important ;
+}
+
+.icon-doctabout{
+	background-image: url(../img/sabout.png) !important ;
+}
+

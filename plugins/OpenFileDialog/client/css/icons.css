@@ -1,0 +1,24 @@
+/* 
+    Document   : icons
+    Created on : 03-jun-2011, 21:06:41
+    Author     : nessus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.icon-back{
+        background-image: url(../img/defaults/icons/icon-back.png) !important ;
+}
+
+.icon-foward{
+	background-image: url(../img/defaults/icons/icon-foward.png) !important ;
+}
+
+.icon-reload{
+	background-image: url(../img/defaults/icons/icon-reload.png) !important ;
+}
+
+.icon-up{
+	background-image: url(../img/defaults/icons/icon-up.png) !important ;
+}

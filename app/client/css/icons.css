@@ -1,0 +1,120 @@
+/*
+ * 
+ * Custom thumbnail icons for BHike Toolkit
+ * 
+ * */
+
+.icon-back{
+        background-image: url(../img/defaults/icons/icon-back.png) !important ;
+}
+
+.icon-collapse-all{
+        background-image: url(../img/defaults/icons/icon-collapse-all.png) !important ;
+}
+
+.icon-edition-copy{
+        background-image: url(../img/defaults/icons/icon-edition-copy.png) !important ;
+}
+
+.icon-edition-cut{
+        background-image: url(../img/defaults/icons/icon-edition-cut.png) !important ;
+}
+
+.icon-edition-delete{
+        background-image: url(../img/defaults/icons/icon-edition-delete.png) !important ;
+}
+.icon-edition-paste{
+        background-image: url(../img/defaults/icons/icon-edition-paste.png) !important ;
+}
+
+.icon-exit{
+	background-image: url(../img/defaults/icons/icon-exit.png) !important ;
+}
+
+.icon-expand-all{
+        background-image: url(../img/defaults/icons/icon-expand-all.png) !important ;
+}
+
+.icon-foward{
+	background-image: url(../img/defaults/icons/icon-foward.png) !important ;
+}
+
+.icon-menuabout{
+	background-image: url(../img/defaults/icons/icon-menuAbout.png) !important ;
+}
+
+.icon-menudirect{
+	background-image: url(../img/defaults/icons/icon-menuDirect.png) !important ;
+}
+
+.icon-menuemail{
+	background-image: url(../img/defaults/icons/icon-menuEmail.png) !important ;
+}
+
+.icon-menuhelp{
+	background-image: url(../img/defaults/icons/icon-menuHelp.png) !important ;
+}
+
+.icon-menuhomepage{
+	background-image: url(../img/defaults/icons/icon-menuHomePage.png) !important ;
+}
+
+.icon-new-file{
+	background-image: url(../img/defaults/icons/icon-new-file.png) !important ;
+}
+
+.icon-open-file{
+	background-image: url(../img/defaults/icons/icon-open-file.png) !important ;
+}
+
+.icon-options{
+	background-image: url(../img/defaults/icons/icon-options.png) !important ;
+}
+
+.icon-recent{
+	background-image: url(../img/defaults/icons/icon-recent.png) !important ;
+}
+
+.icon-redo{
+	background-image: url(../img/defaults/icons/icon-redo.png) !important ;
+}
+
+.icon-refresh{
+	background-image: url(../img/defaults/icons/icon-refresh.png) !important ;
+}
+
+.icon-reload{
+	background-image: url(../img/defaults/icons/icon-reload.png) !important ;
+}
+
+.icon-save-all{
+	background-image: url(../img/defaults/icons/icon-save-all.png) !important ;
+}
+
+.icon-save{
+	background-image: url(../img/defaults/icons/icon-save.png) !important ;
+}
+
+.icon-savedata{
+	background-image: url(../img/defaults/icons/icon-saveData.png) !important ;
+}
+
+.icon-savesettings{
+	background-image: url(../img/defaults/icons/icon-saveSettings.png) !important ;
+}
+
+.icon-savetofile{
+	background-image: url(../img/defaults/icons/icon-saveToFile.png) !important ;
+}
+
+.icon-tipofday{
+	background-image: url(../img/defaults/icons/icon-tipOfDay.png) !important ;
+}
+
+.icon-undo{
+	background-image: url(../img/defaults/icons/icon-undo.png) !important ;
+}
+
+.icon-up{
+    	background-image: url(../img/defaults/icons/icon-up.png) !important ;
+}

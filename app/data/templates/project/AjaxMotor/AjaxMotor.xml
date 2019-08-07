@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BHTemplate Type="App" Version="0.3">
+    <TemplateData>
+        <Name>AjaxMotor</Name>
+		<Description>Template to build a project with using AJAX embebed in your app implementation</Description>
+		<Icon>icon.png</Icon>
+        <ProjectType>Ksike</ProjectType>
+		<DefaultName>Ajax</DefaultName>
+		<CreatedOn>{{time}}</CreatedOn>
+    </TemplateData>
+</BHTemplate>

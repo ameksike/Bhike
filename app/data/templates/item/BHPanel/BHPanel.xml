@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BHTemplate Type='Item' Version='0.3'>
+    <TemplateData>
+        <Name>BHPanel</Name>
+        <Description>A couple of Ksike's JavaScript classes definition, that BHike uses as View-Handler classes for the client side implementation. They are used to implement the Decopled Presentation Architecture's pattern, to separate the presentation of presentation-logic. These two classes are only for BHike development at this moment.</Description>
+        <ProjectType>Ksike Items</ProjectType>
+        <ProjectSubType>BHike</ProjectSubType>
+        <SortOrder>100</SortOrder>
+        <DefaultName>BHPanel</DefaultName>
+        <ProvideDefaultName>false</ProvideDefaultName>
+        <LocationField>Hidden</LocationField>
+    </TemplateData>
+    <TemplateContent>
+		<Item ReplaceParameters='true' TargetFileName='view.js.tpl'>
+			<Value>{$GLOBALS['name']}.js</Value>
+		</Item>
+		<Item ReplaceParameters='true' TargetFileName='class.js.tpl'>
+			<Value>{$GLOBALS['name']}.class.js</Value>
+		</Item>
+    </TemplateContent>
+</BHTemplate>

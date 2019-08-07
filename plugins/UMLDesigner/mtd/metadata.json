@@ -1,0 +1,17 @@
+{
+	"info":{
+		"name": "BHike",
+		"version": "1.0",
+		"alias": "Alpha",
+		"authors" : "Yadir",
+		"description": "This project is an IDE Built on ICU, Cuba for building Ksike applications.",
+		"license": "LGPL v3",
+		"update": "2013/02/23",
+		"made": "2010/06/15",
+		"type": "project",
+		"template": "Ksike"
+	},	
+	"dependencies": [
+		{ "name": "Ksike", "version": "1.1", "path": "../../" }
+	]
+}
