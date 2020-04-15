@@ -16,7 +16,7 @@ At this point Bhike is conceived as an informatics solution that pretends to sol
 
 ![Screenshot](docs/img/baner.png)
 
-+ [Ksike Framework: Larva] focus on rich internet application development (RIA)(https://github.com/ameksike/ksike.larva)
++ [Ksike Framework: Larva] focus on rich internet application development also known as RIA (https://github.com/ameksike/ksike.larva)
 + [Ksike Framework: Elephant focus on PHP](https://github.com/ameksike/ksike.elephant)
 + [Ksike Framework: Rhino focus on JavaScript and Node.js](https://github.com/ameksike/ksike.rhino.framework) 
 + [Ksike Framework: focus on Java](https://github.com/ameksike/ksike.java.core.plugin)
