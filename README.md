@@ -13,6 +13,15 @@ At this point Bhike is conceived as an informatics solution that pretends to sol
 
 ![Screenshot](docs/img/cap02.png)
 
+
+![Screenshot](docs/img/baner.png)
+
++ [Ksike Framework: Larva](https://github.com/ameksike/ksike.larva)
++ [Ksike Framework: Elephant focus on PHP](https://github.com/ameksike/ksike.elephant)
++ [Ksike Framework: Rhino focus on JavaScript and Node](https://github.com/ameksike/ksike.rhino.framework) 
++ [Ksike Framework: focus on Java](https://github.com/ameksike/ksike.java.core.plugin)
+
+
 # .....................................................................
 Bhike se define como un Entorno Integrado de Desarrollo (IDE), escrito sobre el framework Ksike serie Larva, orientado principalmente a agilizar el desarrollo sobre marcos de trabajo como Ksike, Symfony, etc.
 
