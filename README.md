@@ -1,5 +1,5 @@
 # Bhike IDE 
-Bhike is defined as an Integrated Development Environment (IDE), written on the Ksike Larva series framework, aimed primarily at streamlining development on frameworks such as Ksike, Symfony, etc.
+Bhike is defined as an Integrated Development Environment (IDE), in phonetics Taina is also known as the witcher or healer who solves everything. It is written on the Ksike Larva series framework, aimed primarily at streamlining development on frameworks such as Ksike, Symfony, etc.
 
 ![Screenshot](docs/img/cap05.png)
 
@@ -16,14 +16,15 @@ At this point Bhike is conceived as an informatics solution that pretends to sol
 
 ![Screenshot](docs/img/baner.png)
 
-+ [Ksike Framework: Larva focus on rich internet application development also known as RIA](https://github.com/ameksike/ksike.larva)
-+ [Ksike Framework: Elephant focus on PHP](https://github.com/ameksike/ksike.elephant)
-+ [Ksike Framework: Rhino focus on JavaScript and Node.js](https://github.com/ameksike/ksike.rhino.framework) 
-+ [Ksike Framework: focus on Java](https://github.com/ameksike/ksike.java.core.plugin)
++ [Ksike Framework: Larva - focus on rich internet application development also known as RIA](https://github.com/ameksike/ksike.larva)
++ [Ksike Framework: Elephant - focus on PHP](https://github.com/ameksike/ksike.elephant)
++ [Ksike Framework: Rhino - focus on JavaScript and Node.js](https://github.com/ameksike/ksike.rhino.framework) 
++ [Ksike Framework: Coffee Cup - focus on Java](https://github.com/ameksike/ksike.java.core.plugin)
 
 
-# .....................................................................
-Bhike se define como un Entorno Integrado de Desarrollo (IDE), escrito sobre el framework Ksike serie Larva, orientado principalmente a agilizar el desarrollo sobre marcos de trabajo como Ksike, Symfony, etc.
+# 
+
+Bhike se define como un Entorno Integrado de Desarrollo (IDE), escrito sobre el framework Ksike serie Larva, orientado principalmente a agilizar el desarrollo sobre marcos de trabajo como Ksike, Symfony, etc. La palabra Bhike proviene de la fonética Taina, en la que el termino es conocido como el bujo o curandero que lo resuelve todo, resultando un complemento esencial para la tecnología propuesta por Ksike.  
 
 ![Screenshot](docs/img/cap03.png)
 
